@@ -76,6 +76,10 @@
     }
 
     /* Main Nav Items */
+    .main-nav-link {
+        margin-right: 23px;
+        font-size: 16px;
+    }
     .main-nav-link:hover {
         color: white;
     }

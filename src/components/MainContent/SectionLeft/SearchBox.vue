@@ -36,6 +36,9 @@
     input::placeholder {
         color: #fb8b1e;
     }
+    .w-form {
+        margin: 0;
+    }
     .text-block-3 {
         border-top: 0.5px solid lightgrey;
         padding-top: 0.6em;
