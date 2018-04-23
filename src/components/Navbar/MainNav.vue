@@ -29,15 +29,24 @@
                             Subscribe to Businessweek
                         </a>
                     </li>
+                    <li class="menu-bar-items search-icon">
+                        <icon name="search"></icon>
+                    </li>
                 </ul>
             </nav>
+            <!-- Search Icon -->
         </div>
     </div>
 </template>
 
 <script>
+    // Font Awesome Icon
+    import 'vue-awesome/icons/search'
+    import Icon from 'vue-awesome/components/Icon'
     export default {
-        
+        components: {
+            icon: Icon,
+        }
     }
 </script>
 
@@ -72,13 +81,23 @@
     }
 
     /* Right Nav Bar items */
-
     .a-items {
         text-decoration: none;
         color: white;
     }
     .a-items:hover {
         text-decoration: underline;
+    }
+    /* Search Icon */
+    .search-icon {
+        position: absolute;
+        float: right;
+        margin: 0 0 0 13em;
+        cursor: pointer;
+    }
+    svg.fa-icon {
+        color: white;
+        height: 35px;
     }
 
 
