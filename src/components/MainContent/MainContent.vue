@@ -7,17 +7,17 @@
 </template>
 
 <script>
-// Import our components from component directory
-import SectionOne from './SectionLeft/SectionOne.vue'
-import SectionTwo from './SectionTwo.vue'
+    // Import our components from component directory
+    import SectionOne from './SectionLeft/SectionOne.vue'
+    import SectionTwo from './SectionRight/SectionTwo.vue'
 
-// Use our components in our App.vue template
-export default {
-  components: {
-    contentSectionOne: SectionOne,
-    contentSectionTwo: SectionTwo,
-  }
-}
+    // Use our components in our App.vue template
+    export default {
+        components: {
+            contentSectionOne: SectionOne,
+            contentSectionTwo: SectionTwo,
+        }
+    }
 </script>
 
 <style>
