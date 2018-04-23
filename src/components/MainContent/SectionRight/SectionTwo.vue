@@ -1,15 +1,19 @@
 <template>
     <div class="div-block-3 w-clearfix">
         <notification-window />
+        <main-content-tabs />
+        <div class="div-block-5 pattern-div"></div>
     </div>
 </template>
 
 <script>
     import Notification from './Notification.vue'
+    import SectionTabs from './SectionTabs.vue'
 
     export default {
         components: {
-            notificationWindow: Notification
+            notificationWindow: Notification,
+            mainContentTabs: SectionTabs
         }
     }
 </script>
