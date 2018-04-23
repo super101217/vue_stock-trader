@@ -3,9 +3,8 @@
       <!-- Our Nav Bar Components-->
       <top-nav-bar />
       <main-nav-bar />
-      <!-- Main Content and Buttons -->
-      <content-section-one />
-      <content-section-two />
+      <!-- Main Content-->
+      <main-contain-body />
       <!-- Footer -->
       <footer-left />
       <footer-right />
@@ -16,8 +15,7 @@
 // Import our components from component directory
 import TopBar from './components/Navbar/TopNav.vue'
 import MainBar from './components/Navbar/MainNav.vue'
-import SectionOne from './components/MainContent/SectionOne.vue'
-import SectionTwo from './components/MainContent/SectionTwo.vue'
+import MainContent from './components/MainContent/MainContent.vue'
 import FooterLeft from './components/Footer/FooterLeft.vue'
 import FooterRight from './components/Footer/FooterRight.vue'
 
@@ -26,13 +24,18 @@ export default {
   components: {
     topNavBar: TopBar,
     mainNavBar: MainBar,
-    contentSectionOne: SectionOne,
-    contentSectionTwo: SectionTwo,
+    mainContainBody: MainContent,
     footerLeft: FooterLeft,
     footerRight: FooterRight
   }
 }
 </script>
 
-<style>
+<style scoped>
+  @import './Assets/normalize.css';
+  @import './Assets/webflow.css';
+  @import './Assets/custom.css';
+  .w-container {
+    width: 1020px;
+  }
 </style>
