@@ -8,7 +8,7 @@
 
 <script>
 // Import our components from component directory
-import SectionOne from './SectionOne.vue'
+import SectionOne from './SectionLeft/SectionOne.vue'
 import SectionTwo from './SectionTwo.vue'
 
 // Use our components in our App.vue template

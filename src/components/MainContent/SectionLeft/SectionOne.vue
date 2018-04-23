@@ -4,17 +4,8 @@
         <h4 class="heading">Markets</h4>
         <h1 class="heading-2">Stocks</h1>
         <div class="pattern-box-border">
-            <div class="div-block-6">
-                <div class="w-form">
-                <form id="email-form" name="email-form" data-name="Email Form" class="form"><input type="text" class="text-field quote-search w-input" maxlength="256" name="search" data-name="search" placeholder="Quote Search" id="search"></form>
-                <div class="success-message w-form-done"></div>
-                    <div class="w-form-fail">
-                        <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                </div>
-                <div class="text-block-3">Recently Viewed:</div>
-                <div class="text-block-4">AACO:US</div>
-            </div>
+            <!-- Search Box -->
+            <search-box />
         </div>
         <div class="section-front-box light-box"></div>
         <ul class="latest-list">
@@ -47,20 +38,25 @@
 </template>
 
 <script>
-    export default {
+    import SectionBox from './SearchBox.vue'
 
+    export default {
+        components: {
+            searchBox: SectionBox
+        }
     };
 </script>
 
 
 <style scoped>
-    @import './../../Assets/normalize.css';
-    @import './../../Assets/webflow.css';
-    @import './../../Assets/custom.css';
+    @import './../../../Assets/normalize.css';
+    @import './../../../Assets/webflow.css';
+    @import './../../../Assets/custom.css';
 
     /* Border Style Pattern */
-    .pattern-box-border {
-        
+    .section-front-box {
+        height: 1.4em;
+        margin-top: 2em;
     }
 
 
