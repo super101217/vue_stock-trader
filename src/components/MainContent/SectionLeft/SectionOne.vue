@@ -8,41 +8,18 @@
             <search-box />
         </div>
         <div class="section-front-box light-box"></div>
-        <ul class="latest-list">
-            <li class="list-item">
-                <div class="div-block-10 list-item-div">
-                <div class="latest-list-item-time">02/04/2018</div>
-                <h5 class="heading-4">Tech Drags Stocks Lower; Oil Falls as Dollar Gains: Markets Wrap</h5>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="div-block-10 list-item-div">
-                <div class="latest-list-item-time">02/04/2018</div>
-                <h5 class="heading-4">Tech Drags Stocks Lower; Oil Falls as Dollar Gains: Markets Wrap</h5>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="div-block-10 list-item-div">
-                <div class="latest-list-item-time">02/04/2018</div>
-                <h5 class="heading-4">Tech Drags Stocks Lower; Oil Falls as Dollar Gains: Markets Wrap</h5>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="div-block-10 list-item-div">
-                <div class="latest-list-item-time">AN HOUR AGO</div>
-                <h5 class="heading-4">Tech Drags Stocks Lower; Oil Falls as Dollar Gains: Markets Wrap</h5>
-                </div>
-            </li>
-        </ul>
+        <latest-ul-list />
     </div>
 </template>
 
 <script>
     import SectionBox from './SearchBox.vue'
+    import LatestList from './LatestList.vue'
 
     export default {
         components: {
-            searchBox: SectionBox
+            searchBox: SectionBox,
+            latestUlList: LatestList
         }
     };
 </script>
@@ -57,6 +34,9 @@
     .section-front-box {
         height: 1.4em;
         margin-top: 2em;
+    }
+    .light-box {
+        margin-top: 3em;
     }
 
 
