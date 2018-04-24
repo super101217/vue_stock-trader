@@ -3,17 +3,20 @@
         <notification-window />
         <main-content-tabs />
         <div class="div-block-5 pattern-div"></div>
+        <main-section-content />
     </div>
 </template>
 
 <script>
     import Notification from './Notification.vue'
     import SectionTabs from './SectionTabs.vue'
+    import SectionContent from './SectionContent.vue'
 
     export default {
         components: {
             notificationWindow: Notification,
-            mainContentTabs: SectionTabs
+            mainContentTabs: SectionTabs,
+            mainSectionContent: SectionContent
         }
     }
 </script>
