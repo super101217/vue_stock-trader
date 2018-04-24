@@ -9,7 +9,7 @@
 <script>
     // Import our components from component directory
     import SectionOne from './SectionLeft/SectionOne.vue'
-    import SectionTwo from './SectionRight/SectionTwo.vue'
+    import SectionTwo from './SectionRight/MainSectionTwo.vue'
 
     // Use our components in our App.vue template
     export default {

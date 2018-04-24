@@ -8,6 +8,7 @@
             <search-box />
         </div>
         <div class="section-front-box light-box"></div>
+        <!-- Latest li items -->
         <latest-ul-list />
     </div>
 </template>

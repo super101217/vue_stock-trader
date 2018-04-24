@@ -8,9 +8,9 @@
 </template>
 
 <script>
-    import Notification from './Notification.vue'
-    import SectionTabs from './SectionTabs.vue'
-    import SectionContent from './SectionContent.vue'
+    import Notification from './Content/Notification.vue'
+    import SectionTabs from './Content/SectionTabs.vue'
+    import SectionContent from './Content/SectionContent/SectionContent.vue'
 
     export default {
         components: {
