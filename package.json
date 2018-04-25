@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "amcharts3": "amcharts/amcharts3",
+    "copy-webpack-plugin": "^4.5.1",
     "vue": "^2.5.13",
     "vue-awesome": "^3.0.0"
   },
