@@ -810,6 +810,10 @@ alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
 
+amcharts3@amcharts/amcharts3:
+  version "3.21.12"
+  resolved "https://codeload.github.com/amcharts/amcharts3/tar.gz/1f5df8fab8ab9c26398a47678a921ac67a6db5a4"
+
 ansi-escapes@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.1.0.tgz#f73207bb81207d75fd6c83f125af26eea378ca30"
