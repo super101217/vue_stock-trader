@@ -4,9 +4,10 @@
         <div>
             <!-- Graph Filter Component -->
             <graph-filter-selection />
-            <!-- Chart -->
+            <!-- Chart Border -->
             <div class="pattern-box-border chart-box">
-                <div class="div-block-8"></div>
+                <!-- Chart Component-->
+                <main-graph />
             </div>
             <div class="div-block-5 pattern-div"></div>
             <!-- Table -->
@@ -17,10 +18,12 @@
 
 <script>
     import GraphFilter from './GraphFilter.vue'
+    import Amchart from './GraphContent'
 
     export default {
         components: {
-            graphFilterSelection: GraphFilter
+            graphFilterSelection: GraphFilter,
+            mainGraph: Amchart,
         }
     }
 </script>
