@@ -22,11 +22,14 @@
                 <input placeholder="Add Comparison" />
             </div>
             <div class="div-block-13">
-                <icon name="plus"></icon>
+                <span class="plus"><icon class="plus-icn" name="plus"></icon></span>
             </div>
         </div>
         <div class="div-block-7 time-frame-box time-frame-box-two time-frame-box-three w-clearfix">
-            <div class="text-block-7 text-drop-down">Indicators</div>
+            <div class="text-block-7 text-drop-down">
+                Indicators
+                <span><icon class="caret-down" name="caret-down"></icon></span>
+            </div>
         </div>
     </div>
 </template>
@@ -34,6 +37,7 @@
 <script>
     // Font Awesome Icon
     import 'vue-awesome/icons/plus'
+    import 'vue-awesome/icons/caret-down'
     import Icon from 'vue-awesome/components/Icon'
 
     export default {
@@ -63,12 +67,20 @@
         outline: none;
         width: 8.5em;
     }
+    .div-block-13 {
+        cursor: pointer;
+    }
+    .text-drop-down {
+        cursor: pointer;
+    }
 
-    /* Icon */
-    svg.fa-icon {
+    /* Icons */
+    .plus-icn {
         color: white;
         margin: 0.5em 0.7em;
-        cursor: pointer;
+    }
+    .caret-down {
+        color: #fb8b1e;
     }
 
 </style>
