@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-wrapper">
       <!-- Our Nav Bar Components-->
       <top-nav-bar />
       <main-nav-bar />
@@ -35,7 +35,5 @@ export default {
   @import './Assets/normalize.css';
   @import './Assets/webflow.css';
   @import './Assets/custom.css';
-  .w-container {
-    width: 1020px;
-  }
+  
 </style>
