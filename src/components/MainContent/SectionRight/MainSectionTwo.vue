@@ -8,6 +8,9 @@
         <div class="div-block-5 pattern-div"></div>
             <!-- Europe, Middle East and Africa Section -->
             <main-section-content-two />
+        <div class="div-block-5 pattern-div"></div>
+            <!-- Asia Pacific Section -->
+            <main-section-content-three />
     </div>
 </template>
 
@@ -16,6 +19,7 @@
     import SectionTabs from './Content/SectionTabs.vue'
     import AmericaSectionContent from './Content/AmericaContent/SectionContent.vue'
     import EuropeSectionContent from './Content/EuropeContent/SectionContent.vue'
+    import AsiaSectionContent from './Content/AsiaContent/SectionContent.vue'
 
     export default {
         components: {
@@ -23,6 +27,7 @@
             mainContentTabs: SectionTabs,
             mainSectionContent: AmericaSectionContent,
             mainSectionContentTwo: EuropeSectionContent,
+            mainSectionContentThree: AsiaSectionContent
         }
     }
 </script>
