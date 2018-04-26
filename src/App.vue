@@ -16,8 +16,7 @@
 import TopBar from './components/Navbar/TopNav.vue'
 import MainBar from './components/Navbar/MainNav.vue'
 import MainContent from './components/MainContent/MainContent.vue'
-import FooterLeft from './components/Footer/FooterLeft.vue'
-import FooterRight from './components/Footer/FooterRight.vue'
+import Footer from './components/Footer/Footer.vue'
 
 // Use our components in our App.vue template
 export default {
@@ -25,8 +24,7 @@ export default {
     topNavBar: TopBar,
     mainNavBar: MainBar,
     mainContainBody: MainContent,
-    footerLeft: FooterLeft,
-    footerRight: FooterRight
+    footerLeft: Footer
   }
 }
 </script>
