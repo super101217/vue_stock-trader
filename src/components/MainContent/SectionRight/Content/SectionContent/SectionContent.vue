@@ -11,24 +11,31 @@
             </div>
             <div class="div-block-5 pattern-div"></div>
             <!-- Table -->
-            <div class="table-div"></div>
+            <div class="table-div">
+                <main-table />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     import GraphFilter from './GraphFilter.vue'
-    import Amchart from './GraphContent'
+    import Chart from './Graph/GraphContent'
+    import Table from './Table.vue'
 
     export default {
         components: {
             graphFilterSelection: GraphFilter,
-            mainGraph: Amchart,
+            mainGraph: Chart,
+            mainTable: Table
         }
     }
 </script>
 
 
 <style scoped>
+    .table-div {
+        margin-bottom: 2em;
+    }
 
 </style>
