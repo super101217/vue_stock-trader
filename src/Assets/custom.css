@@ -175,7 +175,7 @@
   display: inline;
   overflow: visible;
   width: 5em;
-  margin-right: 56px;
+  margin-right: 5.7em;
   float: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -192,7 +192,7 @@
   align-items: center;
   border-bottom: 1px solid #000;
   font-family: 'Droid Serif', serif;
-  font-size: 18.8px;
+  font-size: 20.8px;
   line-height: 30px;
   font-weight: 700;
 }
