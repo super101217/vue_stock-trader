@@ -1,6 +1,6 @@
 <template>
     <div class="display-block">
-        <h3 class="heading-3 selected-tab">Americas</h3>
+        <h3 class="heading-3 selected-tab">Europe, Middle East & Africa</h3>
         <div>
             <!-- Graph Filter Component -->
             <graph-filter-selection />
@@ -36,6 +36,10 @@
 <style scoped>
     .table-div {
         margin-bottom: 2em;
+    }
+    .heading-3:hover {
+        cursor: pointer;
+        color: #fb8b1e;
     }
 
 </style>

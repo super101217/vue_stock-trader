@@ -3,20 +3,26 @@
         <notification-window />
         <main-content-tabs />
         <div class="div-block-5 pattern-div"></div>
-        <main-section-content />
+            <!-- America Section -->
+            <main-section-content />
+        <div class="div-block-5 pattern-div"></div>
+            <!-- Europe, Middle East and Africa Section -->
+            <main-section-content-two />
     </div>
 </template>
 
 <script>
     import Notification from './Content/Notification.vue'
     import SectionTabs from './Content/SectionTabs.vue'
-    import SectionContent from './Content/SectionContent/SectionContent.vue'
+    import AmericaSectionContent from './Content/AmericaContent/SectionContent.vue'
+    import EuropeSectionContent from './Content/EuropeContent/SectionContent.vue'
 
     export default {
         components: {
             notificationWindow: Notification,
             mainContentTabs: SectionTabs,
-            mainSectionContent: SectionContent
+            mainSectionContent: AmericaSectionContent,
+            mainSectionContentTwo: EuropeSectionContent,
         }
     }
 </script>
