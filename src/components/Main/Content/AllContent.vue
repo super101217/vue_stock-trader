@@ -17,7 +17,7 @@
     import TerminalNotification from './Notification.vue'
     import SectionTabs from './SectionTabs.vue'
     // Our Tab Content
-    import Overview from './Overview/OverallSection.vue'
+    import Overview from './Overview/AllOverall.vue'
     import Futures from './Futures/AllFutures.vue'
 
     // Use our components in our App.vue template
