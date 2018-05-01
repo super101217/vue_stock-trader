@@ -4,6 +4,7 @@ import Overall from './components/Main/Content/Overview/AllOverall.vue'
 import Futures from './components/Main/Content/Futures/AllFutures.vue'
 import Americas from './components/Main/Content/Americas/AllAmericas.vue'
 import EMEA from './components/Main/Content/EMEA/AllEmea.vue'
+import APAC from './components/Main/Content/APAC/AllApac.vue'
 
 export const routes = [
     { 
@@ -25,5 +26,9 @@ export const routes = [
     { 
         path: '/world-indexes/europe-africa-middle-east', 
         component: EMEA
+    },
+    {
+        path:'/world-indexes/asia-pacific',
+        component: APAC
     }
 ]

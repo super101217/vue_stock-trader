@@ -12,7 +12,9 @@
         <router-link to="/world-indexes/europe-africa-middle-east" class="router-link" activeClass="selected">
             <h3 class="heading-3 main-tabs">EMEA</h3>
         </router-link>
-        <h3 class="heading-3 main-tabs">APAC</h3>
+        <router-link to="/world-indexes/asia-pacific" class="router-link" activeClass="selected">
+            <h3 class="heading-3 main-tabs">APAC</h3>
+        </router-link>
     </div>
 </template>
 
