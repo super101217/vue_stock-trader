@@ -6,10 +6,12 @@
         <router-link to="/futures" class="router-link" activeClass="selected">
             <h3 class="heading-3 main-tabs">Futures</h3>
         </router-link>
-        <router-link to="/americas" class="router-link" activeClass="selected">
+        <router-link to="/world-indexes/americas" class="router-link" activeClass="selected">
             <h3 class="heading-3 main-tabs">Americas</h3>
         </router-link>
-        <h3 class="heading-3 main-tabs">EMEA</h3>
+        <router-link to="/world-indexes/europe-africa-middle-east" class="router-link" activeClass="selected">
+            <h3 class="heading-3 main-tabs">EMEA</h3>
+        </router-link>
         <h3 class="heading-3 main-tabs">APAC</h3>
     </div>
 </template>
