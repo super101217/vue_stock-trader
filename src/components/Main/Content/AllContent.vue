@@ -1,19 +1,32 @@
 <template>
+    <div class="div-block-3 w-clearfix mt">
     <!-- All Content -->
-    <overview-section />
+        <notification-window />
+        <main-content-tabs />
+            <!-- Overview Section -->
+            <overview-section />
+            <!-- Futures Section -->
+    </div>
 </template>
 
 <script>
     // Import our components from component directory
+    import TerminalNotification from './Notification.vue'
+    import SectionTabs from './SectionTabs.vue'
     import Overview from './Overview/OverallSection.vue'
 
     // Use our components in our App.vue template
     export default {
         components: {
+            notificationWindow: TerminalNotification,
+            mainContentTabs: SectionTabs,
             overviewSection: Overview
         }
     }
 </script>
 
-<style>
+<style scoped>
+    .mt {
+        margin-top: 2em;
+    }
 </style>
