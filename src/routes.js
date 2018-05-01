@@ -2,6 +2,7 @@
 
 import Overall from './components/Main/Content/Overview/AllOverall.vue'
 import Futures from './components/Main/Content/Futures/AllFutures.vue'
+import Americas from './components/Main/Content/Americas/AllAmericas.vue'
 
 export const routes = [
     { 
@@ -15,5 +16,9 @@ export const routes = [
     { 
         path: '/futures', 
         component: Futures
+    },
+    { 
+        path: '/americas', 
+        component: Americas
     }
 ]
