@@ -14,7 +14,7 @@
 // Import our components from component directory
 import TopBar from './components/Navbar/TopNav.vue'
 import MainBar from './components/Navbar/MainNav.vue'
-import MainContent from './components/MainContent/MainContent.vue'
+import MainContent from './components/Main/Main.vue'
 import Footer from './components/Footer/Footer.vue'
 
 // Use our components in our App.vue template

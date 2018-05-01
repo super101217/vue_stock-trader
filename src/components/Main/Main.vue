@@ -1,23 +1,24 @@
 <template>
   <div class="main-body w-container">
-      <!-- Main Content and Buttons -->
+      <!-- Sidebar Section -->
       <content-section-one />
-      <content-section-two />
+      <!-- Main Content and Buttons -->
+      <!-- <content-section-two /> -->
   </div>
 </template>
 
 <script>
     // Import our components from component directory
-    import SectionOne from './SectionLeft/SectionOne.vue'
-    import SectionTwo from './SectionRight/MainSectionTwo.vue'
+    import SectionOne from './SideBar/SideBar.vue'
+    // import SectionTwo from './SectionRight/MainSectionTwo.vue'
 
     // Use our components in our App.vue template
     export default {
         components: {
             contentSectionOne: SectionOne,
-            contentSectionTwo: SectionTwo,
         }
     }
+            // contentSectionTwo: SectionTwo,
 </script>
 
 <style>

@@ -29,9 +29,9 @@
 
 
 <style scoped>
-    @import './../../../Assets/normalize.css';
-    @import './../../../Assets/webflow.css';
-    @import './../../../Assets/custom.css';
+    @import './../../../../Assets/normalize.css';
+    @import './../../../../Assets/webflow.css';
+    @import './../../../../Assets/custom.css';
 
     input::placeholder {
         color: #fb8b1e;
