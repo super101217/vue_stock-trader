@@ -20,9 +20,6 @@
 </script>
 
 <style scoped>
-    @import './../../../../Assets/normalize.css';
-    @import './../../../../Assets/webflow.css';
-    @import './../../../../Assets/custom.css';
 
     .text-block {
         margin-top: 0;

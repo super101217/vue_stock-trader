@@ -1,16 +1,16 @@
 <template>
-      <!-- Main Content and Buttons -->
-      <content-section-two />
+    <!-- All Content -->
+    <overview-section />
 </template>
 
 <script>
     // Import our components from component directory
-    import SectionTwo from './SectionRight/MainSectionTwo.vue'
+    import Overview from './Overview/OverallSection.vue'
 
     // Use our components in our App.vue template
     export default {
         components: {
-            contentSectionTwo: SectionTwo
+            overviewSection: Overview
         }
     }
 </script>

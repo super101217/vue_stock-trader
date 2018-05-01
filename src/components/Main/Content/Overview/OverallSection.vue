@@ -34,9 +34,6 @@
 
 
 <style scoped>
-    @import './../../../Assets/normalize.css';
-    @import './../../../Assets/webflow.css';
-    @import './../../../Assets/custom.css';
 
     .div-block-3 {
         margin-top: 2em;
