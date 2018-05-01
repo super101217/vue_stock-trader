@@ -1,10 +1,10 @@
 <template>
-  <div class="main-body w-container">
-      <!-- Sidebar Section -->
-      <content-section-one />
-      <!-- Main Tabs & Content -->
-      <content-section-two />
-  </div>
+    <div class="main-body w-container">
+        <!-- Sidebar Section -->
+        <content-section-one />
+        <!-- Main Tabs & Content -->
+        <content-section-two />
+    </div>
 </template>
 
 <script>

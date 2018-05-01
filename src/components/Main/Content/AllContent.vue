@@ -3,11 +3,12 @@
     <!-- All Content -->
         <notification-window />
         <main-content-tabs />
+        <!-- Render Components according to Routes -->
+        <router-view></router-view>
             <!-- Overview Section -->
             <!-- <overview-section /> -->
-
             <!-- Futures Section -->
-            <futures-section />
+            <!-- <futures-section /> -->
     </div>
 </template>
 
