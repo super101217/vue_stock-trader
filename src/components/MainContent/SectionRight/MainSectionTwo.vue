@@ -1,7 +1,7 @@
 <template>
     <div class="div-block-3 w-clearfix">
-        <notification-window />
-        <main-content-tabs />
+            <notification-window />
+            <main-content-tabs />
         <div class="div-block-5 pattern-div"></div>
             <!-- America Section -->
             <main-section-content />
