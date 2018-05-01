@@ -6,7 +6,7 @@
       <!-- Main Content-->
       <main-contain-body />
       <!-- Footer -->
-      <footer />
+      <main-footer />
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
     topNavBar: TopBar,
     mainNavBar: MainBar,
     mainContainBody: MainContent,
-    footer: Footer
+    mainFooter: Footer
   }
 }
 </script>
