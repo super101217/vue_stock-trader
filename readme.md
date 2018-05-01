@@ -10,7 +10,7 @@ A Tool used to aid the Front-End Design - [Webflow](https://webflow.com/).
 > This project was bootstrapped with [vue-cli](https://github.com/vuejs/vue-cli)
 
 ### Deployed
-Deployed via [Surge](https://surge.sh/) at https://bloomberg-markets-stocks.surge.sh/
+Deployed via [Surge](https://surge.sh/) at https://bloomberg-markets.surge.sh/
 
 ## Instructions
 ### Build Setup
