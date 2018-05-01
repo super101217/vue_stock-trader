@@ -4,8 +4,10 @@
         <notification-window />
         <main-content-tabs />
             <!-- Overview Section -->
-            <overview-section />
+            <!-- <overview-section /> -->
+
             <!-- Futures Section -->
+            <futures-section />
     </div>
 </template>
 
@@ -13,14 +15,17 @@
     // Import our components from component directory
     import TerminalNotification from './Notification.vue'
     import SectionTabs from './SectionTabs.vue'
+    // Our Tab Content
     import Overview from './Overview/OverallSection.vue'
+    import Futures from './Futures/AllFutures.vue'
 
     // Use our components in our App.vue template
     export default {
         components: {
             notificationWindow: TerminalNotification,
             mainContentTabs: SectionTabs,
-            overviewSection: Overview
+            overviewSection: Overview,
+            futuresSection: Futures
         }
     }
 </script>
