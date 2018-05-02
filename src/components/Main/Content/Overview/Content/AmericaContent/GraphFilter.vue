@@ -2,16 +2,36 @@
     <div class="div-block-12">
         <div class="div-block-7 time-frame-box">
             <div class="time-box-one b-r w-clearfix">
-                <div class="text-block-6 selected">1D</div>
+                <div 
+                    class="text-block-6" 
+                    v-bind:class="{selected: day.id == state }"
+                    v-on:click="state = day.id">
+                        1D
+                </div>
             </div>
             <div class="time-box-one b-r w-clearfix">
-                <div class="text-block-6">1M</div>
+                <div 
+                    class="text-block-6"
+                    v-bind:class="{selected: month.id == state }"
+                    v-on:click="state = month.id">
+                        1M
+                </div>
             </div>
             <div class="time-box-one b-r w-clearfix">
-                <div class="text-block-6">1Y</div>
+                <div 
+                    class="text-block-6"
+                    v-bind:class="{selected: oneYear.id == state }"
+                    v-on:click="state = oneYear.id">
+                        1Y
+                </div>
             </div>
             <div class="time-box-one b-r w-clearfix">
-                <div class="text-block-6">5Y</div>
+                <div 
+                    class="text-block-6"
+                    v-bind:class="{selected: fiveYear.id == state }"
+                    v-on:click="state = fiveYear.id">
+                        5Y
+                </div>
             </div>
             <div class="time-box-one time-label-box w-clearfix">
                 <div class="text-block-6 text-label">Time Frame</div>
@@ -41,6 +61,23 @@
     import Icon from 'vue-awesome/components/Icon'
 
     export default {
+        data() {
+            return {
+                state: false,
+                day: {
+                    id:1
+                },
+                month: {
+                    id:2
+                },
+                oneYear: {
+                    id: 3
+                },
+                fiveYear: {
+                    id: 4
+                }
+            }
+        },
         components: {
             icon: Icon
         }
